@@ -10,6 +10,12 @@ class Review:
     def rating(self):
         return self._rating
     
+    def customer(self):
+        return self._customer
+    
+    def restaurant(self):
+        return self._restaurant
+
     @classmethod
     def all(cls):
         return cls.all_reviews
